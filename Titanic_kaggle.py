@@ -8,8 +8,8 @@ from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 
-train_df = pd.read_csv('kaggle_titanic/train.csv')
-test_df = pd.read_csv('kaggle_titanic/test.csv')
+train_df = pd.read_csv('data/kaggle_titanic/train.csv')
+test_df = pd.read_csv('data/kaggle_titanic/test.csv')
 
 # FEATURE ENGINEERING
 
